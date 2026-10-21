@@ -1,0 +1,16 @@
+Label,raw_count,raw_pct,clean_count,removed,clean_pct,family
+BENIGN,2273097,80.3004,2071536,201561,82.9761,Benign
+DoS Hulk,231073,8.163,172697,58376,6.9174,DoS
+PortScan,158930,5.6144,90130,68800,3.6102,PortScan
+DDoS,128027,4.5227,128011,16,5.1275,DDoS
+DoS GoldenEye,10293,0.3636,10282,11,0.4118,DoS
+FTP-Patator,7938,0.2804,5931,2007,0.2376,Brute Force
+SSH-Patator,5897,0.2083,3219,2678,0.1289,Brute Force
+DoS slowloris,5796,0.2048,5372,424,0.2152,DoS
+DoS Slowhttptest,5499,0.1943,5228,271,0.2094,DoS
+Bot,1966,0.0695,1948,18,0.078,Botnet
+Web Attack - Brute Force,1507,0.0532,1470,37,0.0589,Web Attack
+Web Attack - XSS,652,0.023,652,0,0.0261,Web Attack
+Infiltration,36,0.0013,36,0,0.0014,Infiltration
+Web Attack - Sql Injection,21,0.0007,21,0,0.0008,Web Attack
+Heartbleed,11,0.0004,11,0,0.0004,Heartbleed

@@ -1,0 +1,9 @@
+source_file,Benign,Attack
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,95064,128011
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,121554,90130
+Friday-WorkingHours-Morning.pcap_ISCX.csv,178126,1948
+Monday-WorkingHours.pcap_ISCX.csv,492576,0
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,241799,36
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,152306,2143
+Tuesday-WorkingHours.pcap_ISCX.csv,397292,9150
+Wednesday-workingHours.pcap_ISCX.csv,392819,193590

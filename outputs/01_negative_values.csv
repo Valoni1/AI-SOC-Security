@@ -1,0 +1,14 @@
+,negative_count
+Flow Duration,115
+Flow Bytes/s,85
+Flow Packets/s,115
+Flow IAT Mean,115
+Flow IAT Max,115
+Flow IAT Min,2891
+Fwd IAT Min,17
+Fwd Header Length,35
+Bwd Header Length,22
+Fwd Header Length.1,35
+Init_Win_bytes_forward,1001189
+Init_Win_bytes_backward,1441552
+min_seg_size_forward,35

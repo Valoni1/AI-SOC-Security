@@ -1,0 +1,6 @@
+step,reason,before,after,removed,unit
+Drop rows with NaN or infinite values,Undefined rate features (e.g. Flow Bytes/s when duration is 0); too few rows to justify imputation,2830743,2827876,2867,rows
+Drop exact duplicate rows,Avoid train/test leakage and over-weighting repeated flows,2827876,2497980,329896,rows
+Drop rows with conflicting labels,Ground truth is ambiguous; no model can classify these correctly,2497980,2496544,1436,rows
+Drop duplicated and constant columns,Carry no extra information,78,63,15,columns
+Exclude Destination Port from features,Shortcut risk: lab attacks targeted fixed ports; kept as metadata for an ablation,63,62,1,columns

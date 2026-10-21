@@ -1,0 +1,11 @@
+,nan_count,inf_count,n_unique
+Flow Bytes/s,1358,1509,1527319
+Flow Packets/s,0,2867,1165220
+Bwd PSH Flags,0,0,1
+Bwd URG Flags,0,0,1
+Fwd Avg Bytes/Bulk,0,0,1
+Fwd Avg Packets/Bulk,0,0,1
+Fwd Avg Bulk Rate,0,0,1
+Bwd Avg Bytes/Bulk,0,0,1
+Bwd Avg Packets/Bulk,0,0,1
+Bwd Avg Bulk Rate,0,0,1
