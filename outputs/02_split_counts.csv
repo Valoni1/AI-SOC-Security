@@ -1,0 +1,17 @@
+Label,train,validation,test
+BENIGN,1450074,310731,310731
+DoS Hulk,120888,25905,25904
+DDoS,89608,19201,19202
+PortScan,63091,13520,13519
+DoS GoldenEye,7197,1543,1542
+FTP-Patator,4152,889,890
+DoS slowloris,3760,806,806
+DoS Slowhttptest,3660,784,784
+SSH-Patator,2253,483,483
+Bot,1364,292,292
+Web Attack - Brute Force,1029,221,220
+Web Attack - XSS,456,98,98
+Infiltration,25,5,6
+Web Attack - Sql Injection,15,3,3
+Heartbleed,8,1,2
+TOTAL,1747580,374482,374482
