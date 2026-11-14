@@ -204,7 +204,7 @@ with tab_detail:
                           "This flow": [f"{X[flow, i]:,.6g}" for i in j],
                           "Normal median": [f"{NORMAL_MEDIAN[i]:,.6g}" for i in j]})
         chart = alt.Chart(d).mark_bar().encode(
-            x=alt.X("Contribution:Q"), y=alt.Y("Feature:N", sort=None),
+            x=alt.X("Contribution:Q"), y=alt.Y("Feature:N", sort=None, title=None, axis=alt.Axis(labelLimit=260)),
             color=alt.condition("datum.Contribution > 0", alt.value("#C44E52"), alt.value("#4C72B0")),
             tooltip=["Feature", "Contribution", "This flow", "Normal median"])
         col.subheader(title)
