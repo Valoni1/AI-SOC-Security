@@ -1,0 +1,67 @@
+{
+  "notebook": "05_autoencoder",
+  "data_fingerprint": "cb8a0f0b8bd9cf88",
+  "target_fpr": 0.01,
+  "preprocessing": "signed log1p, StandardScaler fitted on autoencoder training flows, clip +/-10",
+  "autoencoder": {
+    "layers": [
+      62,
+      32,
+      16,
+      8,
+      16,
+      32,
+      62
+    ],
+    "activation": "ReLU",
+    "loss": "MSE",
+    "optimiser": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 1024,
+    "max_epochs": 50,
+    "patience": 3,
+    "best_epoch": 49,
+    "best_val_loss": 0.02009940752759576,
+    "fit_time_s": 13.8,
+    "training_flows": 394060,
+    "early_stopping_flows": 98516
+  },
+  "isolation_forest": {
+    "n_estimators": 200,
+    "max_samples": 256,
+    "random_state": 42,
+    "n_jobs": -1,
+    "fit_time_s": 0.3,
+    "input": "raw features"
+  },
+  "thresholds": {
+    "Tuesday": {
+      "calibration_flows": 98516,
+      "ae": 0.22062574326992035,
+      "if": 0.6348213967185217
+    },
+    "Wednesday": {
+      "calibration_flows": 495808,
+      "ae": 0.35906338691711426,
+      "if": 0.6344531768209015
+    },
+    "Thursday": {
+      "calibration_flows": 888627,
+      "ae": 0.3689005374908447,
+      "if": 0.6509652982665329
+    },
+    "Friday": {
+      "calibration_flows": 1282732,
+      "ae": 0.3436327874660492,
+      "if": 0.6446919780455296
+    }
+  },
+  "versions": {
+    "python": "3.13.13",
+    "torch": "2.15.0",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  }
+}

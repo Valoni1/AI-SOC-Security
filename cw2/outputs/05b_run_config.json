@@ -1,0 +1,16 @@
+{
+  "notebook": "05b_held_out_family",
+  "data_fingerprint": "cb8a0f0b8bd9cf88",
+  "target_fpr": 0.01,
+  "xgb_trees": 231,
+  "ae_threshold": 0.7691847085952759,
+  "if_threshold": 0.6672627018684916,
+  "calibration_flows": 251796,
+  "versions": {
+    "python": "3.13.13",
+    "xgboost": "3.4.1",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4"
+  }
+}

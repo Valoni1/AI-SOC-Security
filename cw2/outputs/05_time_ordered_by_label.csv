@@ -1,0 +1,52 @@
+Label,test_flows,flagged,flagged_pct,model,test_day
+BENIGN,397292,9851,2.479536461846702,Autoencoder,Tuesday
+FTP-Patator,5931,10,0.1686056314280897,Autoencoder,Tuesday
+SSH-Patator,3219,7,0.21745883814849332,Autoencoder,Tuesday
+BENIGN,397292,3891,0.9793804053441801,Isolation Forest,Tuesday
+FTP-Patator,5931,0,0.0,Isolation Forest,Tuesday
+SSH-Patator,3219,0,0.0,Isolation Forest,Tuesday
+BENIGN,392819,4725,1.2028440579503537,Autoencoder,Wednesday
+DoS GoldenEye,10282,2702,26.278934059521493,Autoencoder,Wednesday
+DoS Hulk,172697,141221,81.77385826042143,Autoencoder,Wednesday
+DoS Slowhttptest,5228,4755,90.95256312165264,Autoencoder,Wednesday
+DoS slowloris,5372,3037,56.53387937453462,Autoencoder,Wednesday
+Heartbleed,11,10,90.9090909090909,Autoencoder,Wednesday
+BENIGN,392819,7903,2.0118680613717768,Isolation Forest,Wednesday
+DoS GoldenEye,10282,13,0.1264345458082085,Isolation Forest,Wednesday
+DoS Hulk,172697,135441,78.42695588226779,Isolation Forest,Wednesday
+DoS Slowhttptest,5228,392,7.498087222647284,Isolation Forest,Wednesday
+DoS slowloris,5372,1159,21.574832464631424,Isolation Forest,Wednesday
+Heartbleed,11,11,100.0,Isolation Forest,Wednesday
+BENIGN,392819,36,0.009164526155812218,XGBoost (Notebook 04),Wednesday
+DoS GoldenEye,10282,0,0.0,XGBoost (Notebook 04),Wednesday
+DoS Hulk,172697,0,0.0,XGBoost (Notebook 04),Wednesday
+DoS Slowhttptest,5228,103,1.9701606732976282,XGBoost (Notebook 04),Wednesday
+DoS slowloris,5372,0,0.0,XGBoost (Notebook 04),Wednesday
+Heartbleed,11,0,0.0,XGBoost (Notebook 04),Wednesday
+BENIGN,394105,1951,0.495045736542292,Autoencoder,Thursday
+Infiltration,36,14,38.888888888888886,Autoencoder,Thursday
+Web Attack - Brute Force,1470,0,0.0,Autoencoder,Thursday
+Web Attack - Sql Injection,21,0,0.0,Autoencoder,Thursday
+Web Attack - XSS,652,0,0.0,Autoencoder,Thursday
+BENIGN,394105,2206,0.5597493053881579,Isolation Forest,Thursday
+Infiltration,36,11,30.555555555555557,Isolation Forest,Thursday
+Web Attack - Brute Force,1470,0,0.0,Isolation Forest,Thursday
+Web Attack - Sql Injection,21,0,0.0,Isolation Forest,Thursday
+Web Attack - XSS,652,0,0.0,Isolation Forest,Thursday
+BENIGN,394105,142,0.03603100696514888,XGBoost (Notebook 04),Thursday
+Infiltration,36,0,0.0,XGBoost (Notebook 04),Thursday
+Web Attack - Brute Force,1470,1202,81.7687074829932,XGBoost (Notebook 04),Thursday
+Web Attack - Sql Injection,21,8,38.095238095238095,XGBoost (Notebook 04),Thursday
+Web Attack - XSS,652,571,87.57668711656441,XGBoost (Notebook 04),Thursday
+BENIGN,394744,26485,6.709411669335063,Autoencoder,Friday
+Bot,1948,0,0.0,Autoencoder,Friday
+DDoS,128011,23661,18.483567818390608,Autoencoder,Friday
+PortScan,90130,258,0.28625318983690223,Autoencoder,Friday
+BENIGN,394744,11336,2.8717345925460553,Isolation Forest,Friday
+Bot,1948,0,0.0,Isolation Forest,Friday
+DDoS,128011,11264,8.79924381498465,Isolation Forest,Friday
+PortScan,90130,0,0.0,Isolation Forest,Friday
+BENIGN,394744,92,0.02330624404677462,XGBoost (Notebook 04),Friday
+Bot,1948,0,0.0,XGBoost (Notebook 04),Friday
+DDoS,128011,32,0.024997851747115482,XGBoost (Notebook 04),Friday
+PortScan,90130,223,0.24742039276600467,XGBoost (Notebook 04),Friday
