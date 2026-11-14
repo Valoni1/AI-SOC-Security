@@ -1,0 +1,28 @@
+test_day,strategy,capacity,real_attacks_in_queue,precision,attack_types_in_queue,types
+Wednesday,XGBoost score only,500,134,0.268,3,"DoS Slowhttptest 104, DoS Hulk 28, DoS slowloris 2"
+Wednesday,XGBoost score only,1000,461,0.461,3,"DoS Slowhttptest 251, DoS Hulk 138, DoS slowloris 72"
+Wednesday,XGBoost score only,5000,2498,0.4996,4,"DoS Hulk 988, DoS slowloris 977, DoS Slowhttptest 460, DoS GoldenEye 73"
+Wednesday,Autoencoder error only,500,499,0.998,1,DoS Hulk 499
+Wednesday,Autoencoder error only,1000,968,0.968,1,DoS Hulk 968
+Wednesday,Autoencoder error only,5000,4754,0.9508,1,DoS Hulk 4754
+Wednesday,Hybrid tiers,500,464,0.928,2,"DoS Hulk 361, DoS Slowhttptest 103"
+Wednesday,Hybrid tiers,1000,963,0.963,2,"DoS Hulk 860, DoS Slowhttptest 103"
+Wednesday,Hybrid tiers,5000,4718,0.9436,2,"DoS Hulk 4615, DoS Slowhttptest 103"
+Thursday,XGBoost score only,500,409,0.818,3,"Web Attack - Brute Force 294, Web Attack - XSS 113, Web Attack - Sql Injection 2"
+Thursday,XGBoost score only,1000,908,0.908,3,"Web Attack - Brute Force 631, Web Attack - XSS 274, Web Attack - Sql Injection 3"
+Thursday,XGBoost score only,5000,2078,0.4156,4,"Web Attack - Brute Force 1424, Web Attack - XSS 632, Web Attack - Sql Injection 21, Infiltration 1"
+Thursday,Autoencoder error only,500,8,0.016,1,Infiltration 8
+Thursday,Autoencoder error only,1000,11,0.011,1,Infiltration 11
+Thursday,Autoencoder error only,5000,18,0.0036,1,Infiltration 18
+Thursday,Hybrid tiers,500,408,0.816,3,"Web Attack - Brute Force 293, Web Attack - XSS 113, Web Attack - Sql Injection 2"
+Thursday,Hybrid tiers,1000,907,0.907,3,"Web Attack - Brute Force 630, Web Attack - XSS 274, Web Attack - Sql Injection 3"
+Thursday,Hybrid tiers,5000,1799,0.3598,4,"Web Attack - Brute Force 1202, Web Attack - XSS 571, Infiltration 18, Web Attack - Sql Injection 8"
+Friday,XGBoost score only,500,398,0.796,2,"PortScan 362, DDoS 36"
+Friday,XGBoost score only,1000,879,0.879,2,"PortScan 620, DDoS 259"
+Friday,XGBoost score only,5000,4850,0.97,2,"DDoS 4193, PortScan 657"
+Friday,Autoencoder error only,500,2,0.004,1,PortScan 2
+Friday,Autoencoder error only,1000,2,0.002,1,PortScan 2
+Friday,Autoencoder error only,5000,1474,0.2948,2,"DDoS 1471, PortScan 3"
+Friday,Hybrid tiers,500,257,0.514,2,"PortScan 225, DDoS 32"
+Friday,Hybrid tiers,1000,257,0.257,2,"PortScan 225, DDoS 32"
+Friday,Hybrid tiers,5000,1403,0.2806,2,"DDoS 1177, PortScan 226"

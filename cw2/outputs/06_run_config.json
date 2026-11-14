@@ -1,0 +1,27 @@
+{
+  "notebook": "06_hybrid_triage",
+  "data_fingerprint": "cb8a0f0b8bd9cf88",
+  "capacities": [
+    500,
+    1000,
+    5000
+  ],
+  "main_capacity": 1000,
+  "queue_saved_per_day": 5000,
+  "top_features": 3,
+  "tiers": {
+    "P1": "XGBoost >= 0.5 and autoencoder >= threshold",
+    "P2": "XGBoost only",
+    "P3": "autoencoder only",
+    "P4": "neither"
+  },
+  "numpy_vs_pytorch_max_relative_difference": 2.9588756660814397e-05,
+  "versions": {
+    "python": "3.13.13",
+    "xgboost": "3.4.1",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  }
+}

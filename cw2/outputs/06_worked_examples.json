@@ -1,0 +1,46 @@
+[
+  {
+    "example": "Attack flagged by XGBoost",
+    "true_label": "DDoS",
+    "queue_rank": "45",
+    "tier": "P1",
+    "xgb_score": 0.7479,
+    "ae_error": 0.4249,
+    "ae_threshold": 0.3436,
+    "xgb_top_features": "Fwd Header Length = 192 (normal median 64); Idle Max = 9.57e+07 (normal median 0); Bwd Packet Length Mean = 3 (normal median 88)",
+    "ae_top_features": "Idle Std = 6.41e+07 (normal median 0); min_seg_size_forward = 20 (normal median 32); Bwd IAT Std = 0 (normal median 0)"
+  },
+  {
+    "example": "Attack flagged only by the autoencoder",
+    "true_label": "PortScan",
+    "queue_rank": "474",
+    "tier": "P3",
+    "xgb_score": 0.0,
+    "ae_error": 1.8284,
+    "ae_threshold": 0.3436,
+    "xgb_top_features": "Idle Min = 1.1e+07 (normal median 0); Bwd Packet Length Mean = 0 (normal median 88); Bwd Packet Length Max = 0 (normal median 98)",
+    "ae_top_features": "min_seg_size_forward = 0 (normal median 32); Idle Std = 9.20887e+06 (normal median 0); Bwd IAT Min = 1.30317e+06 (normal median 1)"
+  },
+  {
+    "example": "False alarm",
+    "true_label": "BENIGN",
+    "queue_rank": "1",
+    "tier": "P1",
+    "xgb_score": 0.9926,
+    "ae_error": 0.4389,
+    "ae_threshold": 0.3436,
+    "xgb_top_features": "Fwd Header Length = 280 (normal median 64); Bwd Packet Length Mean = 0 (normal median 88); Fwd IAT Mean = 1.05e+07 (normal median 4)",
+    "ae_top_features": "Idle Std = 1.22e+07 (normal median 0); Bwd IAT Min = 0 (normal median 1); PSH Flag Count = 1 (normal median 0)"
+  },
+  {
+    "example": "Missed attack (PortScan outside the queue)",
+    "true_label": "PortScan",
+    "queue_rank": "not in queue",
+    "tier": "P4",
+    "xgb_score": 0.0001,
+    "ae_error": 0.2527,
+    "ae_threshold": 0.3436,
+    "xgb_top_features": "PSH Flag Count = 1 (normal median 0); Min Packet Length = 0 (normal median 6); Flow IAT Mean = 93 (normal median 15,246.7)",
+    "ae_top_features": "ACK Flag Count = 0 (normal median 0); PSH Flag Count = 1 (normal median 0); Down/Up Ratio = 1 (normal median 1)"
+  }
+]
