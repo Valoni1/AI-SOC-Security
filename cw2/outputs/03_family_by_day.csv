@@ -1,0 +1,10 @@
+attack_family,Monday,Tuesday,Wednesday,Thursday,Friday
+Benign,492576,397292,392819,394105,394744
+Botnet,0,0,0,0,1948
+Brute Force,0,9150,0,0,0
+DDoS,0,0,0,0,128011
+DoS,0,0,193579,0,0
+Heartbleed,0,0,11,0,0
+Infiltration,0,0,0,36,0
+PortScan,0,0,0,0,90130
+Web Attack,0,0,0,2143,0

@@ -1,0 +1,56 @@
+{
+  "notebook": "03_data_and_splits",
+  "rows": 2496544,
+  "n_features": 62,
+  "data_fingerprint": "cb8a0f0b8bd9cf88",
+  "random_state": 42,
+  "val_frac_chronological": 0.15,
+  "ae_val_frac": 0.2,
+  "day_order": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ],
+  "experiments": {
+    "E1": "train/val Monday-Thursday (val 15% stratified by Label), test Friday",
+    "E2_Wednesday": "train/val Monday-Tuesday, test Wednesday",
+    "E2_Thursday": "train/val Monday-Wednesday, test Thursday",
+    "random": "CW1 70/15/15 split stratified by Label, seed 42 (verified identical to CW1)",
+    "autoencoder": "train on 80% of benign Monday, early stopping on 20%; threshold on benign flows from the Monday hold-out and Tuesday up to the day before the test day"
+  },
+  "split_counts": {
+    "E1": {
+      "train": 1599454,
+      "val": 282257,
+      "test": 614833,
+      "unused": 0
+    },
+    "E2_Wednesday": {
+      "train": 764165,
+      "val": 134853,
+      "test": 586409,
+      "unused": 1011117
+    },
+    "E2_Thursday": {
+      "train": 1262612,
+      "val": 222815,
+      "test": 396284,
+      "unused": 614833
+    },
+    "random": {
+      "train": 1747580,
+      "val": 374482,
+      "test": 374482,
+      "unused": 0
+    }
+  },
+  "versions": {
+    "python": "3.13.13",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,5 @@
+split,test_flows,identical_to_a_training_flow,share_pct,attack_test_flows,attack_flows_identical_to_training,attack_share_pct
+E1,614833,63822,10.38,220089,34182,15.531
+E2_Wednesday,586409,25944,4.424,193590,5,0.003
+E2_Thursday,396284,27940,7.05,2179,0,0.0
+random,374482,49686,13.268,63751,13375,20.98

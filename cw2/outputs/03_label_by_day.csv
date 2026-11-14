@@ -1,0 +1,16 @@
+Label,Monday,Tuesday,Wednesday,Thursday,Friday
+BENIGN,492576,397292,392819,394105,394744
+Bot,0,0,0,0,1948
+DDoS,0,0,0,0,128011
+DoS GoldenEye,0,0,10282,0,0
+DoS Hulk,0,0,172697,0,0
+DoS Slowhttptest,0,0,5228,0,0
+DoS slowloris,0,0,5372,0,0
+FTP-Patator,0,5931,0,0,0
+Heartbleed,0,0,11,0,0
+Infiltration,0,0,0,36,0
+PortScan,0,0,0,0,90130
+SSH-Patator,0,3219,0,0,0
+Web Attack - Brute Force,0,0,0,1470,0
+Web Attack - Sql Injection,0,0,0,21,0
+Web Attack - XSS,0,0,0,652,0

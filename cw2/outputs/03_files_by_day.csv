@@ -1,0 +1,9 @@
+source_file,day,flows,attack_flows
+Monday-WorkingHours.pcap_ISCX.csv,Monday,492576,0
+Tuesday-WorkingHours.pcap_ISCX.csv,Tuesday,406442,9150
+Wednesday-workingHours.pcap_ISCX.csv,Wednesday,586409,193590
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Thursday,241835,36
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Thursday,154449,2143
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,Friday,223075,128011
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,Friday,211684,90130
+Friday-WorkingHours-Morning.pcap_ISCX.csv,Friday,180074,1948
