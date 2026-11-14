@@ -1,0 +1,18 @@
+Label,split,attack_test_flows,identical_to_any,copy_is_benign,copy_has_same_label,copy_is_other_attack
+Bot,random,292,90,28,88,0
+DDoS,random,19202,0,0,0,0
+DoS GoldenEye,random,1542,0,0,0,0
+DoS Hulk,random,25904,0,0,0,0
+DoS Slowhttptest,random,784,0,0,0,0
+DoS slowloris,random,806,0,0,0,0
+FTP-Patator,random,890,0,0,0,0
+Heartbleed,random,2,0,0,0,0
+Infiltration,random,6,0,0,0,0
+PortScan,random,13519,13285,4907,13285,0
+SSH-Patator,random,483,0,0,0,0
+Web Attack - Brute Force,random,220,0,0,0,0
+Web Attack - Sql Injection,random,3,0,0,0,0
+Web Attack - XSS,random,98,0,0,0,0
+Bot,E1,1948,174,174,0,0
+DDoS,E1,128011,0,0,0,0
+PortScan,E1,90130,34008,34008,0,0
