@@ -1,0 +1,13 @@
+Label,test_day,new_family_pct,new_family_flows,seen_family_pct
+DDoS,E1,0.024997851747115482,128011,99.98437662743464
+PortScan,E1,0.24742039276600467,90130,99.9926030031807
+Bot,E1,0.0,1948,91.43835616438356
+Web Attack - Brute Force,E2_Thursday,81.7687074829932,1470,99.0909090909091
+Web Attack - XSS,E2_Thursday,87.57668711656441,652,97.95918367346938
+Infiltration,E2_Thursday,0.0,36,50.0
+Web Attack - Sql Injection,E2_Thursday,38.095238095238095,21,100.0
+DoS Hulk,E2_Wednesday,0.0,172697,99.98069796170476
+DoS GoldenEye,E2_Wednesday,0.0,10282,100.0
+DoS slowloris,E2_Wednesday,0.0,5372,99.75186104218362
+DoS Slowhttptest,E2_Wednesday,1.9701606732976282,5228,100.0
+Heartbleed,E2_Wednesday,0.0,11,100.0

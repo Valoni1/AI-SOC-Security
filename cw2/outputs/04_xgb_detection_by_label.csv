@@ -1,0 +1,31 @@
+Label,experiment,test_flows,flagged,flagged_pct
+BENIGN,random,310731,255,0.08206455101035945
+Bot,random,292,267,91.43835616438356
+DDoS,random,19202,19199,99.98437662743464
+DoS GoldenEye,random,1542,1542,100.0
+DoS Hulk,random,25904,25899,99.98069796170476
+DoS Slowhttptest,random,784,784,100.0
+DoS slowloris,random,806,804,99.75186104218362
+FTP-Patator,random,890,890,100.0
+Heartbleed,random,2,2,100.0
+Infiltration,random,6,3,50.0
+PortScan,random,13519,13518,99.9926030031807
+SSH-Patator,random,483,483,100.0
+Web Attack - Brute Force,random,220,218,99.0909090909091
+Web Attack - Sql Injection,random,3,3,100.0
+Web Attack - XSS,random,98,96,97.95918367346938
+BENIGN,E1,394744,92,0.02330624404677462
+Bot,E1,1948,0,0.0
+DDoS,E1,128011,32,0.024997851747115482
+PortScan,E1,90130,223,0.24742039276600467
+BENIGN,E2_Wednesday,392819,36,0.009164526155812218
+DoS GoldenEye,E2_Wednesday,10282,0,0.0
+DoS Hulk,E2_Wednesday,172697,0,0.0
+DoS Slowhttptest,E2_Wednesday,5228,103,1.9701606732976282
+DoS slowloris,E2_Wednesday,5372,0,0.0
+Heartbleed,E2_Wednesday,11,0,0.0
+BENIGN,E2_Thursday,394105,142,0.03603100696514888
+Infiltration,E2_Thursday,36,0,0.0
+Web Attack - Brute Force,E2_Thursday,1470,1202,81.7687074829932
+Web Attack - Sql Injection,E2_Thursday,21,8,38.095238095238095
+Web Attack - XSS,E2_Thursday,652,571,87.57668711656441

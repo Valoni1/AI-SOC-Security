@@ -1,0 +1,6 @@
+,CW1 (02_model_comparison.csv),CW2 reference (random split)
+MCC,0.9972068145261824,0.997188981756266
+detection rate,0.999105896378096,0.9993255007764584
+false positive rate,0.0007691540271167,0.0008206455101035944
+false alarms,239.0,255.0
+missed attacks,57.0,43.0

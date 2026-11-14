@@ -1,0 +1,47 @@
+{
+  "notebook": "04_xgboost_chronological",
+  "data_fingerprint": "cb8a0f0b8bd9cf88",
+  "threshold": 0.5,
+  "xgb_params": {
+    "n_estimators": 1000,
+    "learning_rate": 0.1,
+    "max_depth": 8,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist",
+    "eval_metric": "aucpr",
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "early_stopping_rounds": 30,
+  "experiments": {
+    "random": {
+      "scale_pos_weight": 4.874100018150894,
+      "trees": 231,
+      "fit_time_s": 14.5
+    },
+    "E1": {
+      "scale_pos_weight": 8.182712236122194,
+      "trees": 219,
+      "fit_time_s": 11.9
+    },
+    "E2_Wednesday": {
+      "scale_pos_weight": 97.25961167545326,
+      "trees": 13,
+      "fit_time_s": 1.2
+    },
+    "E2_Thursday": {
+      "scale_pos_weight": 6.3267528970747815,
+      "trees": 394,
+      "fit_time_s": 15.7
+    }
+  },
+  "versions": {
+    "python": "3.13.13",
+    "xgboost": "3.4.1",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  }
+}

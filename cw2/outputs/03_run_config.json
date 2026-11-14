@@ -49,7 +49,7 @@
   "versions": {
     "python": "3.13.13",
     "pandas": "3.0.6",
-    "numpy": "2.5.4",
+    "numpy": "2.5.3",
     "sklearn": "1.9.1",
     "matplotlib": "3.11.2"
   }
